@@ -35,7 +35,7 @@ require 'pry'
 
     def buy_cat(name)
       nu_cat = Cat.new(name, self)
-
+      nu_cat
 
     end
 
