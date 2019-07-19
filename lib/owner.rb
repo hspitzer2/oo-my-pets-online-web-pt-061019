@@ -13,7 +13,7 @@ require 'pry'
       @cats =[]
       @dogs =[]
       # @pets = @cats && @dogs
-      @pets = { :dogs => [], :cats => []}
+      # @pets = { :dogs => [], :cats => []}
     end
 
      def pets
