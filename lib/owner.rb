@@ -64,8 +64,8 @@ require 'pry'
       cat.mood = "nervous"
 
       end
-      @cat.owner.clear
-      @dog.owner.clear
+      @dogs.clear
+      @cats.clear
     end
 
     def list_pets
