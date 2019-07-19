@@ -12,9 +12,8 @@ require 'pry'
     @owner = owner
     @@all << self
     @owner.cats << self
-
-
   end
+  
   def self.all
     @@all
   end
