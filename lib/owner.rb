@@ -64,7 +64,7 @@ require 'pry'
       @cats.each do |cat|
       cat.mood = "nervous"
       cat.owner.clear
-     end
+      end
     end
 
     def list_pets
