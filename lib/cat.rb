@@ -6,7 +6,7 @@ require 'pry'
 
   @@all =[]
 
-  def initialize(name, mood)
+  def initialize(name, mood, owner)
     @name = name
     @mood = "nervous"
     @owner = owner
