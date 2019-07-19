@@ -11,7 +11,8 @@ require 'pry'
     @mood = "nervous"
     @owner = owner
     @@all << self
-    @cats = []
+    @owner.cats << self
+  
 
   end
   def self.all
