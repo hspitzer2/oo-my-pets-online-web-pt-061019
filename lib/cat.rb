@@ -8,8 +8,8 @@ require 'pry'
 
   def initialize(name, owner)
     @name = name
-    @mood = "nervous"
     @owner = owner
+    @mood = "nervous"
     @@all << self
     @owner.cats << self
   end
@@ -17,4 +17,5 @@ require 'pry'
   def self.all
     @@all
   end
+  
 end
