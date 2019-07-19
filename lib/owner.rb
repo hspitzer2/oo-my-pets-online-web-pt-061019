@@ -10,6 +10,9 @@ require 'pry'
       @name = name
       @species = "human"
       @@all << self
+      @cats =[]
+      @dogs =[]
+      @pets = @cats && @dogs
       @pets = { :dogs => [], :cats => []}
     end
 
