@@ -38,13 +38,14 @@ require 'pry'
     end
 
     def buy_cat(name)
-      nu_cat = Cat.new(name)
-      @pets[:cats]<< nu_cat
+      nu_cat = Cat.new(name, self)
+      # @pets[:cats]<< nu_cat
+      
     end
 
     def buy_dog(name)
       nu_dog = Dog.new(name)
-      @pets[:dogs] << nu_dog
+      # @pets[:dogs] << nu_dog
     end
 
     def walk_dogs
