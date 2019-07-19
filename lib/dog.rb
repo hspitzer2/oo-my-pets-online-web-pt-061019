@@ -3,7 +3,7 @@ class Dog
   attr_accessor :mood
   attr_reader  :name
 
-  @@all =[]
+  @@dogs =[]
 
   def initialize(name, mood)
     @name = name
@@ -12,6 +12,6 @@ class Dog
   end
 
   def self.all
-    @all
+    @dogs
   end
 end
