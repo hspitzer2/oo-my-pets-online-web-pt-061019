@@ -16,9 +16,9 @@ require 'pry'
       # @pets = { :dogs => [], :cats => []}
     end
 
-     def pets
-       @pets
-     end
+    #  def pets
+    #    @pets
+    #  end
 
     def say_species
       "I am a #{species}."
@@ -59,8 +59,9 @@ require 'pry'
     def sell_pets
       @dogs.each do |dog|
       dog.mood = "nervous"
-      binding.pry
-      dog.owner = nil
+      
+      dog.owner = reset_all
+
       end
 
       @cats.each do |cat|
