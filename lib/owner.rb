@@ -61,7 +61,7 @@ require 'pry'
       dog.mood = "nervous"
       end
       @cats.each do |cat|
-      @cat.mood = "nervous"
+      cat.mood = "nervous"
 
       end
       @cat.owner.clear
