@@ -68,7 +68,7 @@ require 'pry'
     end
 
     def list_pets
-      "I have #{pets[:dogs].count}, #{pets[:cats].count}."
+      "I have #{[:dogs].count}, #{[:cats].count}."
     end
 
 end
