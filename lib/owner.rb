@@ -59,6 +59,7 @@ require 'pry'
     def sell_pets
       @dogs.each do |dog|
       dog.mood = "nervous"
+      @onwer.clear
       end
       @cats.each do |cat|
       cat.mood = "nervous"
