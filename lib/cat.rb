@@ -9,7 +9,8 @@ require 'pry'
   def initialize(name, mood)
     @name = name
     @mood = "nervous"
-  
+    @owner = owner
+
   end
 
 
