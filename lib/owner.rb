@@ -59,6 +59,7 @@ require 'pry'
     def sell_pets
       @dogs.each do |dog|
       dog.mood = "nervous"
+      binding.pry
       dog.owner = nil
       end
       
