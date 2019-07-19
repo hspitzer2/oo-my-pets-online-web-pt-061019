@@ -60,7 +60,7 @@ require 'pry'
       @dogs.each do |dog|
       dog.mood = "nervous"
 
-      dog.owner = mil
+      dog.owner = nil
 
       end
 
