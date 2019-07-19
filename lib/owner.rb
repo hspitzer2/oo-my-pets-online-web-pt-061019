@@ -12,7 +12,7 @@ require 'pry'
       @@all << self
       @cats =[]
       @dogs =[]
-      @cats << @cats
+      @cats << Cat.new
       @pets = @cats && @dogs
       @pets = { :dogs => [], :cats => []}
     end
