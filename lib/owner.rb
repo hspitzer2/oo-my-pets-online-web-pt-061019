@@ -57,9 +57,12 @@ require 'pry'
     end
 
     def sell_pets
-        @pets.each do |type, pets|
-        @pets.map {|pet| pet.mood = "nervous"}
+        @dogs.each do |dog| 
+        dog.mood = "nervous"
+        dog.owner = nil
       end
+      @dogs.each do |dog| 
+      dog.mood = "nervous"
        @pets.clear
     end
 
