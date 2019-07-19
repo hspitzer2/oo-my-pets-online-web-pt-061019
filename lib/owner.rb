@@ -12,7 +12,7 @@ require 'pry'
       @@all << self
       @cats =[]
       @dogs =[]
-    
+
     end
 
 
@@ -41,7 +41,7 @@ require 'pry'
 
     def buy_dog(name)
       nu_dog = Dog.new(name, self)
-    
+      nu_dog
     end
 
     def walk_dogs
