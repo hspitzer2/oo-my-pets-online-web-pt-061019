@@ -62,7 +62,7 @@ require 'pry'
       binding.pry
       dog.owner = nil
       end
-      
+
       @cats.each do |cat|
       cat.mood = "nervous"
       cat.owner = nil
