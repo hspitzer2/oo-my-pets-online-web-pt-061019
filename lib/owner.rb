@@ -69,7 +69,7 @@ require 'pry'
     def list_pets
       dogs_count = @dogs.size
       cats_count = @cats.count
-      "I have #{dogs_count} dog(s) and #{cats_count} cat(s)."
+      "I have #{dogs_count} dog(s), and #{cats_count} cat(s)."
     end
 
 end
