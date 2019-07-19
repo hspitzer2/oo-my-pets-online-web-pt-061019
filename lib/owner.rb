@@ -12,7 +12,6 @@ require 'pry'
       @@all << self
       @cats =[]
       @dogs =[]
-
     end
 
 
@@ -68,7 +67,8 @@ require 'pry'
     end
 
     def list_pets
-      "I have #{@dogs].count} dogs and  #{[@cats].count} cats."
+      dog_count = dog.size
+      "I have #{@dogs].count} dog(s) and  #{[@cats].count} cat(s)."
     end
 
 end
