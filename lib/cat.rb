@@ -1,7 +1,7 @@
 class Cat
 require 'pry'
 
-  attr_accessor :mood
+  attr_accessor :mood, :owner
   attr_reader  :name
 
 
