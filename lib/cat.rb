@@ -5,9 +5,14 @@ require 'pry'
   attr_reader  :name
 
 
+
   def initialize(name, mood)
     @name = name
     @mood = "nervous"
+  end
+
+  def self.all
+    @@all
   end
 
 end
