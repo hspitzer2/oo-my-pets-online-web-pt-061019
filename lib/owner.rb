@@ -12,13 +12,9 @@ require 'pry'
       @@all << self
       @cats =[]
       @dogs =[]
-      # @pets = @cats && @dogs
-      # @pets = { :dogs => [], :cats => []}
+    
     end
 
-    #  def pets
-    #    @pets
-    #  end
 
     def say_species
       "I am a #{species}."
@@ -39,7 +35,7 @@ require 'pry'
 
     def buy_cat(name)
       nu_cat = Cat.new(name, self)
-      # @pets[:cats]<< nu_cat
+
 
     end
 
