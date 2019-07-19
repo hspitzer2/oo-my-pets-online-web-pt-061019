@@ -4,7 +4,7 @@ require 'pry'
   attr_accessor :pets,  :mood, :cats, :dogs
   attr_reader :species, :name
 
-  @@all = []
+    @@all = []
 
     def initialize(name)
       @name = name
@@ -12,7 +12,6 @@ require 'pry'
       @@all << self
       @cats =[]
       @dogs =[]
-      @cats << Cat.new
       @pets = @cats && @dogs
       @pets = { :dogs => [], :cats => []}
     end
