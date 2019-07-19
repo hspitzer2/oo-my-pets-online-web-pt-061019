@@ -59,11 +59,11 @@ require 'pry'
     def sell_pets
       @dogs.each do |dog|
       dog.mood = "nervous"
-      dog.onwer.clear
+      dog.owner.clear
       end
       @cats.each do |cat|
       cat.mood = "nervous"
-      cat.onwer.clear
+      cat.owner.clear
 
       end
       @dogs.clear
