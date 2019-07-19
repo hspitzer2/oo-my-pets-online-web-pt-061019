@@ -41,7 +41,7 @@ require 'pry'
 
     def buy_dog(name)
       nu_dog = Dog.new(name, self)
-      # @pets[:dogs] << nu_dog
+    
     end
 
     def walk_dogs
