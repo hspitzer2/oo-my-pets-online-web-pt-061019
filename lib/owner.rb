@@ -40,7 +40,7 @@ require 'pry'
     def buy_cat(name)
       nu_cat = Cat.new(name, self)
       # @pets[:cats]<< nu_cat
-      
+
     end
 
     def buy_dog(name)
